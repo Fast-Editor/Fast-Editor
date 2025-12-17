@@ -1,10 +1,53 @@
+# Dependencies
 node_modules/
+
+# Build outputs
+docs/
 dist/
 build/
+out/
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# Editor files
 *.swp
 *.swo
 *~
-*.md
+.vscode/
+.idea/
+
+# Electron builder
+*.dmg
+*.exe
+*.AppImage
+*.deb
+*.rpm
+
+# Workspace state
+workspace-state.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Keep documentation files
+!README.md
+!CONTRIBUTING.md
+!CHANGELOG.md
+!LICENSE
+!CLAUDE.md
+!docs/
